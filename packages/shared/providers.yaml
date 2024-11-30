@@ -1982,6 +1982,21 @@ dropbox:
         base_url: https://api.dropboxapi.com
     docs: https://docs.nango.dev/integrations/all/dropbox
 
+dropbox-sign:
+    display_name: Dropbox Sign
+    categories:
+        - legal
+    auth_mode: OAUTH2
+    authorization_url: https://app.hellosign.com/oauth/authorize
+    token_url: https://app.hellosign.com/oauth/token
+    authorization_params:
+        response_type: code
+    token_params:
+        grant_type: authorization_code
+    proxy:
+        base_url: https://api.hellosign.com/v3
+    docs: https://docs.nango.dev/integrations/all/dropbox-sign
+
 emarsys:
     display_name: Emarsys Core API
     categories:

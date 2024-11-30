@@ -338,6 +338,7 @@
                 "integrations/all/discourse",
                 "integrations/all/dixa",
                 "integrations/all/dropbox",
+                "integrations/all/dropbox-sign",
                 "integrations/all/docusign",
                 "integrations/all/e-conomic",
                 "integrations/all/elevio",
